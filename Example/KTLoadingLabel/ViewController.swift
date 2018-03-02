@@ -18,7 +18,12 @@ class ViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(label)
         
-
+        // Layout by setting constraints to view
+        /* Can also use frame/storyboard/xib to config */
+        label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        label.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: 16).isActive = true
+        label.topAnchor.constraint(greaterThanOrEqualTo: view.topAnchor, constant: 8).isActive = true
         
         // Start Animation of KTLoadingLabel
         label.animate()
