@@ -1,0 +1,6 @@
+framework module KTLoadingLabel {
+  umbrella header "KTLoadingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

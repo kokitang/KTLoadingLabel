@@ -1,0 +1,22 @@
+{
+  "name": "KTLoadingLabel",
+  "version": "0.1.0",
+  "summary": "A short description of KTLoadingLabel.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Koki Tang/KTLoadingLabel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Koki Tang": "kokitangwaichun@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Koki Tang/KTLoadingLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KTLoadingLabel/Classes/**/*"
+}

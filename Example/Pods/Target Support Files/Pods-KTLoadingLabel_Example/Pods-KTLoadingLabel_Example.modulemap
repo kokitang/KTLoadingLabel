@@ -1,0 +1,6 @@
+framework module Pods_KTLoadingLabel_Example {
+  umbrella header "Pods-KTLoadingLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

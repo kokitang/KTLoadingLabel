@@ -1,0 +1,16 @@
+PODS:
+  - KTLoadingLabel (0.1.0)
+
+DEPENDENCIES:
+  - KTLoadingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  KTLoadingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KTLoadingLabel: 3e3191417eab153c45fb73cb186399067c441dc8
+
+PODFILE CHECKSUM: 0ace208929f1d15cd5f4d5705cd2e81a027647f8
+
+COCOAPODS: 1.4.0
