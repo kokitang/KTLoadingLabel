@@ -20,9 +20,44 @@ it, simply add the following line to your Podfile:
 pod 'KTLoadingLabel'
 ```
 
+## Usage
+
+### Programmatically
+```Swift
+import KTLoadingLabel
+
+let label = KTLoadingLabel.init(staticString: "Loading", animateString: "...")
+// Start Animation of KTLoadingLabel
+label.animate()
+
+// Constraints to view /* Can also use frame/storyboard/xib to config */
+label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+label.leadingAnchor.constraint(greaterThanOrEqualTo: view.leadingAnchor, constant: 16).isActive = true
+label.topAnchor.constraint(greaterThanOrEqualTo: view.topAnchor, constant: 8).isActive = true
+
+// End Animation of KTLoadKTLoadingLabel
+label.stopAnimate()
+```
+### Storyboard / xib files
+
+1. Simply drags UILabel into UIView.
+2. Go to Identity Inspector, change the class to KTLoadingLabel.
+3. You can customize some params in Attributes Inspector.
+4. Setup autoResizing / autoConstraints.
+
+```
+timerInterval: Defines the speed of animation (per sec)
+repeats: Defines loops of animation. If repeats == false, animation will stop automatically after it go throughs 1 animation cycle, else will loop until stopAnimate() called.
+autoAnimated: If it set to true, will call animate() in awakeFormNib automatically.
+staticText: Text of label which will always shown.
+animateText: Text of label will do animation.
+
+```
+
 ## Author
 
-Koki Tang, kokitangwaichun@gmail.com
+Koki Tang
 
 ## License
 

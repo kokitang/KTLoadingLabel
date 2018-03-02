@@ -1,9 +1,9 @@
 {
   "name": "KTLoadingLabel",
   "version": "0.1.0",
-  "summary": "A short description of KTLoadingLabel.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Koki Tang/KTLoadingLabel",
+  "summary": "KTLoadingLabel is a subclass of UILabel which provides loading animation",
+  "description": "KTLoadingLabel is a nice and simple library for iOS. It is highly customizable and userfriendly. Works perfectly on anywhere in your app by just one line of code.",
+  "homepage": "https://github.com/kokitang/KTLoadingLabel",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Koki Tang": "kokitangwaichun@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Koki Tang/KTLoadingLabel.git",
+    "git": "https://github.com/kokitang/KTLoadingLabel.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "KTLoadingLabel/Classes/**/*"
+  "source_files": "KTLoadingLabel/Classes/**/*",
+  "frameworks": "UIKit",
+  "swift_version": "4.0"
 }

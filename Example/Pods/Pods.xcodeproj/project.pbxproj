@@ -9,14 +9,15 @@
 /* Begin PBXBuildFile section */
 		03A888E4B4EE48A11868E9EB8893DC7C /* Pods-KTLoadingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27A41987A245BA909DC9B58CD0290DB /* Pods-KTLoadingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		10E886F805EB50C9D34DCC10C24C8950 /* Pods-KTLoadingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 863AFCB6C5E7CAD049801791B9AD6367 /* Pods-KTLoadingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6826EAF59FBCAE5478594F12317EDC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		22A7135B57CE49EC58C8EE6C89C4F86E /* KTLoadingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20CD5B18D331AAF76092131353E1EC7D /* KTLoadingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B71DF76217C93D00085748B03F63645 /* KTLoadingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905583AE868A208E11F898D90C1821DA /* KTLoadingLabel-dummy.m */; };
+		6826EAF59FBCAE5478594F12317EDC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		8152A46BA9B248A578B5432EFCD43E5B /* Pods-KTLoadingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 940E582522294D2DA069FC6BE5F56059 /* Pods-KTLoadingLabel_Tests-dummy.m */; };
-		88E6E8D47A0A4D024A9F09C2A6CC951C /* KTLoadingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A25FE4DE0C8AD688058296680637F18E /* KTLoadingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8481EE2BD01C1CA49B4863BB35FE23B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		93C62379254E4B5362246C38A9350369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		93D150AA0DFD9C59E97DBE492A5FF993 /* KTLoadingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C5382097A48F319BEC11EC802339E /* KTLoadingLabel.swift */; };
 		A06156742741263395967C948EEBFFD9 /* Pods-KTLoadingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B23B506B2B54D58B0C2DAE756D232BB /* Pods-KTLoadingLabel_Example-dummy.m */; };
-		B324FAA24F9F54B6962F93367B4A5C90 /* KTLoadingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ACE6CFFEA25C14E16EB274AED9F64E /* KTLoadingLabel-dummy.m */; };
-		D40CDD232B5930CF4A8B5EC771A47C0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E3659BDB096572484D855FCCE0C48F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F11833865D36CB7143A07F22E30DD532 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCA7C936C2C1FF868C38CCCB38D3379 /* ReplaceMe.swift */; };
+		E3659BDB096572484D855FCCE0C48F87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,48 +25,47 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3C0A8B1D4BA3FAC528DD518AE83E0F9;
+			remoteGlobalIDString = 561E716A7DFEA364D24B89DCB10A3E2D;
 			remoteInfo = KTLoadingLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000224153FF0382BDE1428D1F7218897 /* Pods-KTLoadingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KTLoadingLabel_Example.modulemap"; sourceTree = "<group>"; };
+		000224153FF0382BDE1428D1F7218897 /* Pods-KTLoadingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KTLoadingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		063EEC7B7BE96FBB260EA4A755A4B7EA /* Pods-KTLoadingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTLoadingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		087ACCA7D750DB23F07E2248B794E14B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B23B506B2B54D58B0C2DAE756D232BB /* Pods-KTLoadingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTLoadingLabel_Example-dummy.m"; sourceTree = "<group>"; };
-		12E225A7B2FF73629194445B08F0A65E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0B8C5382097A48F319BEC11EC802339E /* KTLoadingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KTLoadingLabel.swift; path = KTLoadingLabel/Classes/KTLoadingLabel.swift; sourceTree = "<group>"; };
 		1733270F6292CF9378F6E938477FDD4F /* Pods-KTLoadingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTLoadingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		20CD5B18D331AAF76092131353E1EC7D /* KTLoadingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTLoadingLabel-umbrella.h"; sourceTree = "<group>"; };
 		25922DE32CB6A9D60D68C0F210411CDF /* Pods-KTLoadingLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTLoadingLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		350E444B6DA9B57B56950B8FB1BBE785 /* Pods-KTLoadingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KTLoadingLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		35C35153560819AE381FB837DA68BD55 /* KTLoadingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTLoadingLabel-prefix.pch"; sourceTree = "<group>"; };
-		51635884946BD3440D626AAF4BA6F9B0 /* Pods_KTLoadingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTLoadingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		56ACE6CFFEA25C14E16EB274AED9F64E /* KTLoadingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTLoadingLabel-dummy.m"; sourceTree = "<group>"; };
+		350E444B6DA9B57B56950B8FB1BBE785 /* Pods-KTLoadingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KTLoadingLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		42A6BD7D36B0E5F0AD50F445E14E13D3 /* KTLoadingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTLoadingLabel.xcconfig; sourceTree = "<group>"; };
+		4BFBA49391E731ADE72E9EF9DC3472AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51635884946BD3440D626AAF4BA6F9B0 /* Pods_KTLoadingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTLoadingLabel_Tests.framework; path = "Pods-KTLoadingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55EC726DDEDCA3E8A308EC3E5399E116 /* KTLoadingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KTLoadingLabel.modulemap; sourceTree = "<group>"; };
 		581E442EBE04133B4C82404019C74F3C /* Pods-KTLoadingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTLoadingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		59F8FC16C1A0D8A165071FD809D558A1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6F2CD61420ABC7C07C32A3DBF1DAF7FF /* Pods-KTLoadingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTLoadingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		708B71D5E934997163466C5B6A071D3A /* KTLoadingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KTLoadingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		72E98AFCA497D8CE18B796C4C7725F95 /* Pods-KTLoadingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTLoadingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		742A3331E93CCC29551BB7EC6B3218FC /* Pods-KTLoadingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTLoadingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7ACC6B8D7898638CE8E773237F888163 /* KTLoadingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KTLoadingLabel.modulemap; sourceTree = "<group>"; };
 		7B2291E609D5130BFD3D7FFBE14B9709 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E66C3C1F0C94C7C0CCE2C78090AA956 /* Pods-KTLoadingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KTLoadingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EAC3EF554746DBE0862B245FBE7D39E /* Pods-KTLoadingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTLoadingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		863AFCB6C5E7CAD049801791B9AD6367 /* Pods-KTLoadingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTLoadingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		89E6735C8A50F43E247FC5E781E38076 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B252D34CC79EDC2D6C2693E4B2EAB9D /* Pods-KTLoadingLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KTLoadingLabel_Tests-resources.sh"; sourceTree = "<group>"; };
+		905583AE868A208E11F898D90C1821DA /* KTLoadingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTLoadingLabel-dummy.m"; sourceTree = "<group>"; };
 		922B9F9D024D806E6DF787CF3AF9F2F6 /* Pods-KTLoadingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KTLoadingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940E582522294D2DA069FC6BE5F56059 /* Pods-KTLoadingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KTLoadingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		A25FE4DE0C8AD688058296680637F18E /* KTLoadingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTLoadingLabel-umbrella.h"; sourceTree = "<group>"; };
-		A5922513204905F100DE77C8 /* DateTimePicker.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = DateTimePicker.podspec; sourceTree = "<group>"; };
-		ADCA7C936C2C1FF868C38CCCB38D3379 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KTLoadingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		C208DB3F75083259EC4EBD596B188FF9 /* KTLoadingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KTLoadingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C775626AEFBC31C3AD6AC025617D09D4 /* KTLoadingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KTLoadingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5D48F49E1074846D9822A8497B4FA2B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C775626AEFBC31C3AD6AC025617D09D4 /* KTLoadingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KTLoadingLabel.framework; path = KTLoadingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD17FA2B4EC32F334EAA0BA9A40666D3 /* KTLoadingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTLoadingLabel-prefix.pch"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		ED172029D60B15E92CBDF022E0750053 /* Pods-KTLoadingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KTLoadingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F22F23F698E5F477C65F2E05B80F87C1 /* KTLoadingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KTLoadingLabel.xcconfig; sourceTree = "<group>"; };
 		F27A41987A245BA909DC9B58CD0290DB /* Pods-KTLoadingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KTLoadingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
-		FE67DCECF2A87B5CC5D54F254A250D25 /* Pods_KTLoadingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTLoadingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE67DCECF2A87B5CC5D54F254A250D25 /* Pods_KTLoadingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KTLoadingLabel_Example.framework; path = "Pods-KTLoadingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90498A59D8463878FE00B0BF5BF863BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C62379254E4B5362246C38A9350369 /* Foundation.framework in Frameworks */,
+				8481EE2BD01C1CA49B4863BB35FE23B6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		951604BDC6D2E16AA0FA0EFD35BBFC91 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -85,29 +94,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A296FD71764C36D2E8A4FF5B99923200 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D40CDD232B5930CF4A8B5EC771A47C0B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13D841C855AE0C7D5B56AAC003D7AB8D /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				89E6735C8A50F43E247FC5E781E38076 /* Info.plist */,
-				7ACC6B8D7898638CE8E773237F888163 /* KTLoadingLabel.modulemap */,
-				F22F23F698E5F477C65F2E05B80F87C1 /* KTLoadingLabel.xcconfig */,
-				56ACE6CFFEA25C14E16EB274AED9F64E /* KTLoadingLabel-dummy.m */,
-				35C35153560819AE381FB837DA68BD55 /* KTLoadingLabel-prefix.pch */,
-				A25FE4DE0C8AD688058296680637F18E /* KTLoadingLabel-umbrella.h */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KTLoadingLabel";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		670FC39B3666D095097C18BD346A7DCD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				708B71D5E934997163466C5B6A071D3A /* KTLoadingLabel.podspec */,
+				59F8FC16C1A0D8A165071FD809D558A1 /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -115,21 +128,21 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				FAB1BCA9DBC62134CC4E48383481F0A1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				AA4D28A5287B5A857DFF58912487880A /* Products */,
 				9A35D79ECA33FC4F3035B9DA2B6A329E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7DED4FFFA4B1EADD08B8BEAEE64FF89C /* Pod */ = {
+		8E2DF54128B969594226D78A4D3971B3 /* KTLoadingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				A5922513204905F100DE77C8 /* DateTimePicker.podspec */,
-				C208DB3F75083259EC4EBD596B188FF9 /* KTLoadingLabel.podspec */,
-				12E225A7B2FF73629194445B08F0A65E /* LICENSE */,
-				D5D48F49E1074846D9822A8497B4FA2B /* README.md */,
+				0B8C5382097A48F319BEC11EC802339E /* KTLoadingLabel.swift */,
+				670FC39B3666D095097C18BD346A7DCD /* Pod */,
+				E62B3895C298E1CD220BABBA7CB13ECB /* Support Files */,
 			);
-			name = Pod;
+			name = KTLoadingLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9A35D79ECA33FC4F3035B9DA2B6A329E /* Targets Support Files */ = {
@@ -139,17 +152,6 @@
 				FF3C6A68639224C6D86223A515ADD438 /* Pods-KTLoadingLabel_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A03AFE3229CDE1AF60AD430497685A0F /* KTLoadingLabel */ = {
-			isa = PBXGroup;
-			children = (
-				ADCA7C936C2C1FF868C38CCCB38D3379 /* ReplaceMe.swift */,
-				7DED4FFFA4B1EADD08B8BEAEE64FF89C /* Pod */,
-				13D841C855AE0C7D5B56AAC003D7AB8D /* Support Files */,
-			);
-			name = KTLoadingLabel;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		AA4D28A5287B5A857DFF58912487880A /* Products */ = {
@@ -162,20 +164,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		E62B3895C298E1CD220BABBA7CB13ECB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				4BFBA49391E731ADE72E9EF9DC3472AC /* Info.plist */,
+				55EC726DDEDCA3E8A308EC3E5399E116 /* KTLoadingLabel.modulemap */,
+				42A6BD7D36B0E5F0AD50F445E14E13D3 /* KTLoadingLabel.xcconfig */,
+				905583AE868A208E11F898D90C1821DA /* KTLoadingLabel-dummy.m */,
+				CD17FA2B4EC32F334EAA0BA9A40666D3 /* KTLoadingLabel-prefix.pch */,
+				20CD5B18D331AAF76092131353E1EC7D /* KTLoadingLabel-umbrella.h */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KTLoadingLabel";
 			sourceTree = "<group>";
 		};
 		F3EFB043B6DE94230D338E83642898BE /* Pods-KTLoadingLabel_Example */ = {
@@ -199,7 +199,7 @@
 		FAB1BCA9DBC62134CC4E48383481F0A1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A03AFE3229CDE1AF60AD430497685A0F /* KTLoadingLabel */,
+				8E2DF54128B969594226D78A4D3971B3 /* KTLoadingLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -233,19 +233,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		525E4791E237E00020A090223B71A0BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A7135B57CE49EC58C8EE6C89C4F86E /* KTLoadingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A9FD760069BA50DFE04361587C8FC14 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				03A888E4B4EE48A11868E9EB8893DC7C /* Pods-KTLoadingLabel_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA4E75F2B4F4087D889398DAFBE797F6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				88E6E8D47A0A4D024A9F09C2A6CC951C /* KTLoadingLabel-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +270,23 @@
 			productReference = FE67DCECF2A87B5CC5D54F254A250D25 /* Pods_KTLoadingLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		561E716A7DFEA364D24B89DCB10A3E2D /* KTLoadingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B599A6EB9585C68ED53EF48B0992EE89 /* Build configuration list for PBXNativeTarget "KTLoadingLabel" */;
+			buildPhases = (
+				E41B1587851F8AF78417318531FE69AA /* Sources */,
+				90498A59D8463878FE00B0BF5BF863BB /* Frameworks */,
+				525E4791E237E00020A090223B71A0BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTLoadingLabel;
+			productName = KTLoadingLabel;
+			productReference = C775626AEFBC31C3AD6AC025617D09D4 /* KTLoadingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7961B4C86C1A40037F8C7D86B1ED9227 /* Pods-KTLoadingLabel_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1C9962C9B4B30A00FFCFCDAAAD705E7 /* Build configuration list for PBXNativeTarget "Pods-KTLoadingLabel_Tests" */;
@@ -285,23 +302,6 @@
 			name = "Pods-KTLoadingLabel_Tests";
 			productName = "Pods-KTLoadingLabel_Tests";
 			productReference = 51635884946BD3440D626AAF4BA6F9B0 /* Pods_KTLoadingLabel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D3C0A8B1D4BA3FAC528DD518AE83E0F9 /* KTLoadingLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FA2FDA5430B05AA6E4479B506F2C3EF /* Build configuration list for PBXNativeTarget "KTLoadingLabel" */;
-			buildPhases = (
-				3C64BFDD7303778BB89BC9B84A12BE53 /* Sources */,
-				A296FD71764C36D2E8A4FF5B99923200 /* Frameworks */,
-				DA4E75F2B4F4087D889398DAFBE797F6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KTLoadingLabel;
-			productName = KTLoadingLabel;
-			productReference = C775626AEFBC31C3AD6AC025617D09D4 /* KTLoadingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -325,7 +325,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3C0A8B1D4BA3FAC528DD518AE83E0F9 /* KTLoadingLabel */,
+				561E716A7DFEA364D24B89DCB10A3E2D /* KTLoadingLabel */,
 				2C51370036AB22F6A8BA5979E12F48E0 /* Pods-KTLoadingLabel_Example */,
 				7961B4C86C1A40037F8C7D86B1ED9227 /* Pods-KTLoadingLabel_Tests */,
 			);
@@ -333,15 +333,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3C64BFDD7303778BB89BC9B84A12BE53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B324FAA24F9F54B6962F93367B4A5C90 /* KTLoadingLabel-dummy.m in Sources */,
-				F11833865D36CB7143A07F22E30DD532 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		54BA1A03E3433D2069FD1E983BB298F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,13 +349,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E41B1587851F8AF78417318531FE69AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B71DF76217C93D00085748B03F63645 /* KTLoadingLabel-dummy.m in Sources */,
+				93D150AA0DFD9C59E97DBE492A5FF993 /* KTLoadingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		9ADC0BACFDD6D29091699E1BC2E5686B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KTLoadingLabel;
-			target = D3C0A8B1D4BA3FAC528DD518AE83E0F9 /* KTLoadingLabel */;
+			target = 561E716A7DFEA364D24B89DCB10A3E2D /* KTLoadingLabel */;
 			targetProxy = A85E4CEB62EB0A71CF7E09A02BAE0FC6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -496,38 +496,6 @@
 			};
 			name = Debug;
 		};
-		45CF1865CBF1EA133FC8067BA1E75C74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22F23F698E5F477C65F2E05B80F87C1 /* KTLoadingLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KTLoadingLabel/KTLoadingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KTLoadingLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KTLoadingLabel/KTLoadingLabel.modulemap";
-				PRODUCT_NAME = KTLoadingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		47EF545DD8DC9DF384E7C4E8D50FCE38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 581E442EBE04133B4C82404019C74F3C /* Pods-KTLoadingLabel_Example.debug.xcconfig */;
@@ -556,6 +524,37 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C319E3854BFF5927B198A38A7E953F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42A6BD7D36B0E5F0AD50F445E14E13D3 /* KTLoadingLabel.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KTLoadingLabel/KTLoadingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KTLoadingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KTLoadingLabel/KTLoadingLabel.modulemap";
+				PRODUCT_NAME = KTLoadingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -650,9 +649,9 @@
 			};
 			name = Release;
 		};
-		9E056CB2AC930D0311FB44661EED3412 /* Debug */ = {
+		FFD161A2AABD56B172A2969B523976AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22F23F698E5F477C65F2E05B80F87C1 /* KTLoadingLabel.xcconfig */;
+			baseConfigurationReference = 42A6BD7D36B0E5F0AD50F445E14E13D3 /* KTLoadingLabel.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -666,33 +665,25 @@
 				GCC_PREFIX_HEADER = "Target Support Files/KTLoadingLabel/KTLoadingLabel-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/KTLoadingLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/KTLoadingLabel/KTLoadingLabel.modulemap";
 				PRODUCT_NAME = KTLoadingLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FA2FDA5430B05AA6E4479B506F2C3EF /* Build configuration list for PBXNativeTarget "KTLoadingLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E056CB2AC930D0311FB44661EED3412 /* Debug */,
-				45CF1865CBF1EA133FC8067BA1E75C74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -707,6 +698,15 @@
 			buildConfigurations = (
 				47EF545DD8DC9DF384E7C4E8D50FCE38 /* Debug */,
 				1E18C4F9E934AA577300C8965A3E48B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B599A6EB9585C68ED53EF48B0992EE89 /* Build configuration list for PBXNativeTarget "KTLoadingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C319E3854BFF5927B198A38A7E953F0 /* Debug */,
+				FFD161A2AABD56B172A2969B523976AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

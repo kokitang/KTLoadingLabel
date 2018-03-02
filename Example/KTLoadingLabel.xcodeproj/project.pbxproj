@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		73F2878A06E850B8798F147C /* Pods_KTLoadingLabel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B942BB6982F6684806E67F2 /* Pods_KTLoadingLabel_Tests.framework */; };
+		A592251D2049281500DE77C8 /* setofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A592251C2049281500DE77C8 /* setofont.ttf */; };
 		B6CAC4C167A6AF08E6558322 /* Pods_KTLoadingLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B28D69CCC2B8EEAAA09119 /* Pods_KTLoadingLabel_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		6B942BB6982F6684806E67F2 /* Pods_KTLoadingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTLoadingLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		706E805561BCE023ABC22E14 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A0405222DBC293B212B855BD /* Pods-KTLoadingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLoadingLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTLoadingLabel_Example/Pods-KTLoadingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A592251C2049281500DE77C8 /* setofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = setofont.ttf; sourceTree = "<group>"; };
 		AD90D532403F7170EE8A61E2 /* Pods-KTLoadingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLoadingLabel_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KTLoadingLabel_Tests/Pods-KTLoadingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDDB01AF8C8BEE0764993729 /* Pods-KTLoadingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KTLoadingLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KTLoadingLabel_Example/Pods-KTLoadingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E1B28D69CCC2B8EEAAA09119 /* Pods_KTLoadingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KTLoadingLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A592251C2049281500DE77C8 /* setofont.ttf */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,6 +218,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z5M4YCJ8T4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -250,6 +254,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				A592251D2049281500DE77C8 /* setofont.ttf in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +522,7 @@
 			baseConfigurationReference = A0405222DBC293B212B855BD /* Pods-KTLoadingLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5M4YCJ8T4;
 				INFOPLIST_FILE = KTLoadingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +538,7 @@
 			baseConfigurationReference = DDDB01AF8C8BEE0764993729 /* Pods-KTLoadingLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z5M4YCJ8T4;
 				INFOPLIST_FILE = KTLoadingLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
