@@ -25,8 +25,11 @@ pod 'KTLoadingLabel'
 ## Preview
 
 - **Default:**
+
 ![Default](Resources/defaults.gif)
+
 - **Reverse:**
+
 ![Reverse](Resources/reverse.gif)
 
 ## Usage
