@@ -89,8 +89,8 @@ label.stopAnimate()
 ## Custom Font
 
 You can use any font as you want in the label.
-If you want to use the font in the sample gif, you can download [here](https://osdn.net/projects/setofont/releases/).
-Or you can find this font file inside `\Example\KTLoadingLabel`.
+If you want to use the font in the sample gif, you can  [**download here**](https://osdn.net/projects/setofont/releases/).
+Or you can find this font file inside `/Example/KTLoadingLabel`.
 
 ## Author
 
