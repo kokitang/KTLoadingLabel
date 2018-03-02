@@ -50,27 +50,27 @@ label.stopAnimate()
 
 ## Parameters
 
-#### timerInterval
+#### - timerInterval
 Defines the speed of animation (per sec)
 ```
 @IBInspectable var timerInterval: Double = 0.25
 ```
-#### repeats
+#### - repeats
 Defines loops of animation. If repeats == false, animation will stop automatically after it go throughs 1 animation cycle, else will loop until stopAnimate() called.
 ```
 @IBInspectable var repeats: Bool = true
 ```
-#### autoAnimated
+#### - autoAnimated
 If it set to true, will call animate() in awakeFormNib automatically.
 ```
 @IBInspectable var autoAnimated: Bool = false // Use when create by IB/Storyboard, to define needs animate by default
 ```
-#### staticText
+#### - staticText
 Text of label which will always shown.
 ```
 @IBInspectable var staticText: String = ""
 ```
-#### animateText
+#### - animateText
 Text of label will do animation.
 ```
 @IBInspectable var animateText: String = ""
