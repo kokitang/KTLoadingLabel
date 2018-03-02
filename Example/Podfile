@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KTLoadingLabel_Example' do
+  pod 'KTLoadingLabel', :path => '../'
+
+  target 'KTLoadingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
