@@ -69,12 +69,12 @@ label.stopAnimate()
 ## Parameters
 
 - **StringType:** The possible patterns of text in label when it's not animating.
-- `fullString` — staticString + animateString. (Default)
-- `staticString` — staticString only.
-- `animateString` — animateString only.
+    - `fullString` — staticString + animateString. (Default)
+    - `staticString` — staticString only.
+    - `animateString` — animateString only.
 - **AnimationType:** The possible animation styles of label when animating.
-- `defaults` — Linear, start from index 0. (i.e. 0, 1, 2, 3, 0, 1, ...).
-- `reverse` — Reverse order when meet the maximum index. (i.e. 0, 1, 2, 3, 2, 1, 0, 1, ...).
+    - `defaults` — Linear, start from index 0. (i.e. 0, 1, 2, 3, 0, 1, ...).
+    - `reverse` — Reverse order when meet the maximum index. (i.e. 0, 1, 2, 3, 2, 1, 0, 1, ...).
 - **stringType `StringType`:** The pattern of text in label.
 - **animationType `AnimationType`:** The animation style of label.
 - **textSize `CGFloat`:** The text size of label. (Default: 16.0)
