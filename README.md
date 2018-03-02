@@ -45,7 +45,11 @@ label.stopAnimate()
 
 1. Simply drags UILabel into UIView.
 2. Go to Identity Inspector, change the class to KTLoadingLabel.
-3. You can customize some params in Attributes Inspector.
+3. Customize some params in Attributes Inspector.
+4. Setup autoResizing / autoConstraints.
+
+## Parameters
+
 #### timerInterval
 Defines the speed of animation (per sec)
 ```
@@ -72,9 +76,6 @@ Text of label will do animation.
 @IBInspectable var animateText: String = ""
 
 ```
-4. Setup autoResizing / autoConstraints.
-
-
 
 ## Author
 
