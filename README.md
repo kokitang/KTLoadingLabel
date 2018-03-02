@@ -75,15 +75,22 @@ label.stopAnimate()
 - **AnimationType:** The possible animation styles of label when animating.
     - `defaults` — Linear, start from index 0. (i.e. 0, 1, 2, 3, 0, 1, ...).
     - `reverse` — Reverse order when meet the maximum index. (i.e. 0, 1, 2, 3, 2, 1, 0, 1, ...).
+    
 - **stringType `StringType`:** The pattern of text in label.
 - **animationType `AnimationType`:** The animation style of label.
 - **textSize `CGFloat`:** The text size of label. (Default: 16.0)
+
 - **timerInterval `@IBInspectable Double`:** The speed of animation (per sec)
 - **repeats `@IBInspectable Bool`:** Defines loops of animation. If repeats == false, animation will stop automatically after it go throughs 1 animation cycle, else will loop until stopAnimate() called.
 - **autoAnimated `@IBInspectable Bool`:** `IB/Storyboard Only` If it set to true, will call animate() in awakeFormNib automatically.
 - **staticText `@IBInspectable String`:** *Always override `text` attribute of UILabel* `Text of label which will always shown.
 - **animateText `@IBInspectable String`:** Text of label will do animation.
 
+## Custom Font
+
+You can use any font as you want in the label.
+If you want to use the font in the sample gif, you can download [here](https://osdn.net/projects/setofont/releases/).
+Or you can find this font file inside `\Example\KTLoadingLabel`.
 
 ## Author
 
