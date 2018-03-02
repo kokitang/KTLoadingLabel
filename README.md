@@ -9,6 +9,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+- iOS 8.0+ / macOS 10.10+ / tvOS 9.0+ / watchOS 2.0+
+- Xcode 8.3+
+- Swift 3.1+
+
 ## Installation
 
 KTLoadingLabel is available through [CocoaPods](http://cocoapods.org). To install
@@ -42,16 +46,35 @@ label.stopAnimate()
 1. Simply drags UILabel into UIView.
 2. Go to Identity Inspector, change the class to KTLoadingLabel.
 3. You can customize some params in Attributes Inspector.
+#### timerInterval
+Defines the speed of animation (per sec)
+```
+@IBInspectable var timerInterval: Double = 0.25
+```
+#### repeats
+Defines loops of animation. If repeats == false, animation will stop automatically after it go throughs 1 animation cycle, else will loop until stopAnimate() called.
+```
+@IBInspectable var repeats: Bool = true
+```
+#### autoAnimated
+If it set to true, will call animate() in awakeFormNib automatically.
+```
+@IBInspectable var autoAnimated: Bool = false // Use when create by IB/Storyboard, to define needs animate by default
+```
+#### staticText
+Text of label which will always shown.
+```
+@IBInspectable var staticText: String = ""
+```
+#### animateText
+Text of label will do animation.
+```
+@IBInspectable var animateText: String = ""
+
+```
 4. Setup autoResizing / autoConstraints.
 
-```
-timerInterval: Defines the speed of animation (per sec)
-repeats: Defines loops of animation. If repeats == false, animation will stop automatically after it go throughs 1 animation cycle, else will loop until stopAnimate() called.
-autoAnimated: If it set to true, will call animate() in awakeFormNib automatically.
-staticText: Text of label which will always shown.
-animateText: Text of label will do animation.
 
-```
 
 ## Author
 
