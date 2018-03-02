@@ -1,7 +1,13 @@
-# KTLoadingLabel
+<!--# KTLoadingLabel-->
 [![Version](https://img.shields.io/cocoapods/v/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
 [![License](https://img.shields.io/cocoapods/l/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
 [![Platform](https://img.shields.io/cocoapods/p/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
+
+<br>
+
+![Banner](Resources/banner.png)
+
+<br>
 
 ## Example
 
