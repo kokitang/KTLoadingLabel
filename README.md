@@ -1,6 +1,4 @@
 # KTLoadingLabel
-
-[![CI Status](http://img.shields.io/travis/Koki Tang/KTLoadingLabel.svg?style=flat)](https://travis-ci.org/Koki Tang/KTLoadingLabel)
 [![Version](https://img.shields.io/cocoapods/v/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
 [![License](https://img.shields.io/cocoapods/l/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
 [![Platform](https://img.shields.io/cocoapods/p/KTLoadingLabel.svg?style=flat)](http://cocoapods.org/pods/KTLoadingLabel)
