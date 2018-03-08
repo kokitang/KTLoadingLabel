@@ -1,9 +1,9 @@
 //
 //  KTLoadingLabel.swift
-//  dynamic
+//  KTLoadingLabel
 //
 //  Created by Koki Tang on 2/3/2018.
-//  Copyright © 2018年 wchingtech. All rights reserved.
+//  Copyright © 2018年 Koki Tang. All rights reserved.
 //
 
 import UIKit

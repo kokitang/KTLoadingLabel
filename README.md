@@ -104,7 +104,7 @@ Or you can find this font file inside `/Example/KTLoadingLabel`.
 
 ## Author
 
-Koki Tang
+[Koki Tang](https://www.linkedin.com/in/kokitang/)
 
 ## License
 
