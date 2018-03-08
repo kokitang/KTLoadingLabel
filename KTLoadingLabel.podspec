@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KTLoadingLabel'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'KTLoadingLabel is a subclass of UILabel which provides loading animation'
 
 # This description is used to generate tags and improve search results.
